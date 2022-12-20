@@ -1,6 +1,4 @@
-<?php 
-get_header();
-?>
+<?php wp_head(); ?>
 <section>
     <div class="single-title-bg">
         <div class="container">
@@ -8,12 +6,11 @@ get_header();
                 <div class="col-md-6">
                         <div class="header-content">
                                 <h1 class="font-50 text-bold1">
-                                    <?php the_title(); ?>
+
                                 </h1>
                                 <p class="mb-4 font-18 text-bold3">
-                                    <?php $page_desc = get_the_content(); 
-                                        $page_desc = wp_strip_all_tags( $page_desc );
-                                        echo $page_desc;
+                                    <?php 
+                                    echo do_shortcode( '[wp_reg_ister]');
                                     ?>
                                 </p>
                                 <!-- <button class="btn bg-dark text-white rounded-pill px-5 py-2 font-18">
@@ -32,6 +29,3 @@ get_header();
     </div>
 </section>
 
-<?php 
-get_footer();
-?>
