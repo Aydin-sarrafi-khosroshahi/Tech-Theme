@@ -1,0 +1,29 @@
+.cats-img-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.cats-img-btn {
+    margin-right: 48px;
+    background-color: #0053ff;
+    color: #fff;
+    border: 0;
+    padding: 8px 12px;
+    vertical-align: middle;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cats-img {
+    max-width: 300px;
+    max-height: 100px;
+    border-radius: 0.25rem;
+    margin: 0 20px;
+}
+
+#cats-img-box {
+    display: flex;
+    align-items: center;
+}
+
